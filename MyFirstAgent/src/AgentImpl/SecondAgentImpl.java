@@ -10,10 +10,15 @@ import jade.core.behaviours.CyclicBehaviour;
  * 
  * */
 
-public class SecondAgentImpl extends MyAgentAbs{
+public class SecondAgentImpl extends AgentAbs{
 	
 	private static final long serialVersionUID = 1L;
 
+
+	public SecondAgentImpl() {
+		super();
+	}
+	
 	public void instanceNewBehaviour() {
 		
 		this.behaviour = new CyclicBehaviour( this ) {

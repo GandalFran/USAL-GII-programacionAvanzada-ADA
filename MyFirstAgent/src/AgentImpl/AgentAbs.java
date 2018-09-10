@@ -12,8 +12,12 @@ import jade.core.behaviours.CyclicBehaviour;
  * 
  * */
 
-public abstract class MyAgentAbs extends Agent{
+public abstract class AgentAbs extends Agent{
 
+	public AgentAbs() {
+		super();
+	}
+	
 	protected Behaviour behaviour;
 	private static final long serialVersionUID = 1L;
 	
