@@ -1,0 +1,15 @@
+D:\Repos\3-gii-degree-practices\Interfaces graficas\PracticasIGU\CalculadoraWpf\bin\Debug\CalculadoraWpf.exe.config
+D:\Repos\3-gii-degree-practices\Interfaces graficas\PracticasIGU\CalculadoraWpf\bin\Debug\CalculadoraWpf.exe
+D:\Repos\3-gii-degree-practices\Interfaces graficas\PracticasIGU\CalculadoraWpf\bin\Debug\CalculadoraWpf.pdb
+D:\Repos\3-gii-degree-practices\Interfaces graficas\PracticasIGU\CalculadoraWpf\obj\Debug\CalculadoraWpf.csprojAssemblyReference.cache
+D:\Repos\3-gii-degree-practices\Interfaces graficas\PracticasIGU\CalculadoraWpf\obj\Debug\MainWindow.g.cs
+D:\Repos\3-gii-degree-practices\Interfaces graficas\PracticasIGU\CalculadoraWpf\obj\Debug\App.g.cs
+D:\Repos\3-gii-degree-practices\Interfaces graficas\PracticasIGU\CalculadoraWpf\obj\Debug\CalculadoraWpf_MarkupCompile.cache
+D:\Repos\3-gii-degree-practices\Interfaces graficas\PracticasIGU\CalculadoraWpf\obj\Debug\CalculadoraWpf_MarkupCompile.lref
+D:\Repos\3-gii-degree-practices\Interfaces graficas\PracticasIGU\CalculadoraWpf\obj\Debug\MainWindow.baml
+D:\Repos\3-gii-degree-practices\Interfaces graficas\PracticasIGU\CalculadoraWpf\obj\Debug\CalculadoraWpf.g.resources
+D:\Repos\3-gii-degree-practices\Interfaces graficas\PracticasIGU\CalculadoraWpf\obj\Debug\CalculadoraWpf.Properties.Resources.resources
+D:\Repos\3-gii-degree-practices\Interfaces graficas\PracticasIGU\CalculadoraWpf\obj\Debug\CalculadoraWpf.csproj.GenerateResource.cache
+D:\Repos\3-gii-degree-practices\Interfaces graficas\PracticasIGU\CalculadoraWpf\obj\Debug\CalculadoraWpf.csproj.CoreCompileInputs.cache
+D:\Repos\3-gii-degree-practices\Interfaces graficas\PracticasIGU\CalculadoraWpf\obj\Debug\CalculadoraWpf.exe
+D:\Repos\3-gii-degree-practices\Interfaces graficas\PracticasIGU\CalculadoraWpf\obj\Debug\CalculadoraWpf.pdb
