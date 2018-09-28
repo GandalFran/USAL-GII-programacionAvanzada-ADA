@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:P2_Ejemplo2"
         mc:Ignorable="d"
-        Title="SuperRobertoSanchezBros" Height="450" Width="800">
-    <Grid>
+        Title="SuperRobertoBros" Height="450" Width="800">
+    <Grid Name="MainGrid">
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition/>
@@ -33,7 +33,7 @@
                 <ImageBrush ImageSource="image.jpg"/>
             </Canvas.Background>
             <Canvas.RenderTransform>
-                <RotateTransform Angle="30"/>
+                <RotateTransform Angle="0"/>
             </Canvas.RenderTransform>
         </Canvas>
 
