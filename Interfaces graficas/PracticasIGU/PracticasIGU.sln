@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejemplo1", "PracticasIGU\Ejemplo1.csproj", "{A3C43F82-54DD-40B7-9C3E-67B1D5772AF8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P0_Ejercicio1", "PracticasIGU\P0_Ejercicio1.csproj", "{A3C43F82-54DD-40B7-9C3E-67B1D5772AF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejemplo2", "MyFirstWPFApp\Ejemplo2.csproj", "{55C1E494-EDEB-447A-A806-FB2A51A66C0E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P0_Ejercicio2", "MyFirstWPFApp\P0_Ejercicio2.csproj", "{55C1E494-EDEB-447A-A806-FB2A51A66C0E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Practica 0", "Practica 0", "{9999FB10-513C-4D81-8852-DF48494776F5}"
 EndProject
@@ -15,13 +15,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Practica 1", "Practica 1", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Practica casa", "Practica casa", "{0104F471-0E9A-4C7C-860C-FAAA0E737ED5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P1_Ejemplo1", "P1_Ejemplo1\P1_Ejemplo1.csproj", "{64DBB95E-79DD-4424-94E1-D6FED1770933}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P1_Ejercicio1", "P1_Ejemplo1\P1_Ejercicio1.csproj", "{64DBB95E-79DD-4424-94E1-D6FED1770933}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P1_Ejemplo2", "P1_Ejemplo2\P1_Ejemplo2.csproj", "{536423BC-335F-44A2-B5C5-2DC9AA9FF4C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P1_Ejercicio2", "P1_Ejemplo2\P1_Ejercicio2.csproj", "{536423BC-335F-44A2-B5C5-2DC9AA9FF4C9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Practica 2", "Practica 2", "{F6908E12-B3F7-4C2A-A8D1-F8635AF58435}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2_Ejemplo2", "P2_Ejemplo2\P2_Ejemplo2.csproj", "{8E7F718C-BD8B-404E-86B4-5CDC54A0FD32}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2_Ejercicio2", "P2_Ejemplo2\P2_Ejercicio2.csproj", "{8E7F718C-BD8B-404E-86B4-5CDC54A0FD32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P1_Ejercicio3", "P1_Ejercicio3\P1_Ejercicio3.csproj", "{C084B16E-2137-443E-B583-7DDED82C25DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{8E7F718C-BD8B-404E-86B4-5CDC54A0FD32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E7F718C-BD8B-404E-86B4-5CDC54A0FD32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E7F718C-BD8B-404E-86B4-5CDC54A0FD32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C084B16E-2137-443E-B583-7DDED82C25DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C084B16E-2137-443E-B583-7DDED82C25DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C084B16E-2137-443E-B583-7DDED82C25DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C084B16E-2137-443E-B583-7DDED82C25DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +70,7 @@ Global
 		{64DBB95E-79DD-4424-94E1-D6FED1770933} = {B1AF7B9F-E1AA-4237-BF41-8A51B3ED4D78}
 		{536423BC-335F-44A2-B5C5-2DC9AA9FF4C9} = {B1AF7B9F-E1AA-4237-BF41-8A51B3ED4D78}
 		{8E7F718C-BD8B-404E-86B4-5CDC54A0FD32} = {F6908E12-B3F7-4C2A-A8D1-F8635AF58435}
+		{C084B16E-2137-443E-B583-7DDED82C25DF} = {B1AF7B9F-E1AA-4237-BF41-8A51B3ED4D78}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0B280EAA-ABAF-42B3-909C-5BDFE9A04EAE}
