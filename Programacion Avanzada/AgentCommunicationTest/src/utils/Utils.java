@@ -1,4 +1,4 @@
-package es.usal.pa;
+package utils;
 
 import jade.content.lang.sl.SLCodec;
 import jade.core.AID;
@@ -10,23 +10,29 @@ import jade.domain.FIPAAgentManagement.Envelope;
 import jade.domain.FIPAAgentManagement.SearchConstraints;
 import jade.domain.FIPAAgentManagement.ServiceDescription;
 import jade.lang.acl.ACLMessage;
-
+import jade.lang.acl.MessageTemplate;
 import java.io.IOException;
 import java.io.Serializable;
 import java.util.Iterator;
 
 public class Utils 
 {
+
+	public static Object reciveMsg(Agent a, String ontology) {
+		ACLMessage msg= a.blockingReceive(MessageTemplate.and(MessageTemplate.MatchPerformative(ACLMessage.REQUEST), MessageTemplate.MatchOntology(ontology)));
+		Object msgContent = msg.getContent();
+		return msgContent; 
+	}
 	
 	/**
 	 * Permite buscar a todos los agentes que implementa un servicio de un tipo dado
-	 * @param agent Agente con el que se realiza la bï¿½squeda
+	 * @param agent Agente con el que se realiza la búsqueda
 	 * @param tipo  Tipo de servidio buscado
 	 * @return Listado de agentes que proporciona el servicio
 	 */
     protected static DFAgentDescription [] buscarAgentes(Agent agent, String tipo)
     {
-        //indico las caracterï¿½sticas el tipo de servicio que quiero encontrar
+        //indico las características el tipo de servicio que quiero encontrar
         DFAgentDescription template=new DFAgentDescription();
         ServiceDescription templateSd=new ServiceDescription();
         templateSd.setType(tipo); //como define el tipo el agente coordinador tamiben podriamos buscar por nombre
@@ -50,15 +56,15 @@ public class Utils
     
     
     /**
-     * Envï¿½a un objeto desde el agent eindicado a un agent eque proporciona un servicio del tipo dado
+     * Envía un objeto desde el agent eindicado a un agent eque proporciona un servicio del tipo dado
      * @param agent Agente desde el que se va a enviar el servicio
      * @param tipo Tipo del servicio buscado
      * @param objeto Mensaje a Enviar
      */
-    public static void enviarMensaje(Agent agent, String tipo, Object objeto)
+    public static void enviarMensaje(Agent agent, String type, Object objeto, String ontology)
     {
         DFAgentDescription[] dfd;
-        dfd=buscarAgentes(agent, tipo);
+        dfd=buscarAgentes(agent, type);
         
         try
         {
@@ -69,7 +75,7 @@ public class Utils
             	for(int i=0;i<dfd.length;i++)
 	        		aclMessage.addReceiver(dfd[i].getName());
             	
-                aclMessage.setOntology("ontologia");
+                aclMessage.setOntology(ontology);
                 //el lenguaje que se define para el servicio
                 aclMessage.setLanguage(new SLCodec().getName());
                 //el mensaje se transmita en XML
@@ -90,16 +96,16 @@ public class Utils
 
     /**
      * Permite buscar los agents que dan un servicio de un determinado tipo. Devuelve el primero de ellos.
-     * @param agent Agentes desde el que se realiza la bï¿½squeda
+     * @param agent Agentes desde el que se realiza la búsqueda
      * @param tipo Tipo de servicio buscado
      * @return Primer agente que proporciona el servicio
      */
-    protected static DFAgentDescription buscarAgente(Agent agent, String tipo)
+    protected static DFAgentDescription buscarAgente(Agent agent, String type)
     {
-        //indico las caracterï¿½sticas el tipo de servicio que quiero encontrar
+        //indico las características el tipo de servicio que quiero encontrar
         DFAgentDescription template=new DFAgentDescription();
         ServiceDescription templateSd=new ServiceDescription();
-        templateSd.setType(tipo); //como define el tipo el agente coordinador tamiben podriamos buscar por nombre
+        templateSd.setType(type); //como define el tipo el agente coordinador tamiben podriamos buscar por nombre
         template.addServices(templateSd);
         
         SearchConstraints sc = new SearchConstraints();
@@ -121,7 +127,7 @@ public class Utils
                     while (it.hasNext())
                     {
                         ServiceDescription sd = (ServiceDescription) it.next();
-                        if (sd.getType().equals(tipo))
+                        if (sd.getType().equals(type))
                         {
                             System.out.println("- Servicio \""+sd.getName()+"\" proporcionado por el agente "+provider.getName());
                             

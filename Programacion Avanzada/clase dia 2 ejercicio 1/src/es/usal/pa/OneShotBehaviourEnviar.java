@@ -2,6 +2,7 @@ package es.usal.pa;
 
 import java.util.Scanner;
 
+import Utils.Utils;
 import jade.core.Agent;
 import jade.core.behaviours.OneShotBehaviour;
 
