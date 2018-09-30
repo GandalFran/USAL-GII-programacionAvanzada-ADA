@@ -24,5 +24,10 @@ namespace P1_Ejercicio3
         {
             InitializeComponent();
         }
+
+        private void TextBox_TextChanged()
+        {
+
+        }
     }
 }
