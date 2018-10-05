@@ -1,0 +1,14 @@
+C:\Users\alce\Desktop\3-gii-degree-practices-master\Interfaces graficas\PracticasIGU\P2_Ejercicio3\bin\Debug\P2_Ejercicio3.exe.config
+C:\Users\alce\Desktop\3-gii-degree-practices-master\Interfaces graficas\PracticasIGU\P2_Ejercicio3\bin\Debug\P2_Ejercicio3.exe
+C:\Users\alce\Desktop\3-gii-degree-practices-master\Interfaces graficas\PracticasIGU\P2_Ejercicio3\bin\Debug\P2_Ejercicio3.pdb
+C:\Users\alce\Desktop\3-gii-degree-practices-master\Interfaces graficas\PracticasIGU\P2_Ejercicio3\obj\Debug\MainWindow.g.cs
+C:\Users\alce\Desktop\3-gii-degree-practices-master\Interfaces graficas\PracticasIGU\P2_Ejercicio3\obj\Debug\App.g.cs
+C:\Users\alce\Desktop\3-gii-degree-practices-master\Interfaces graficas\PracticasIGU\P2_Ejercicio3\obj\Debug\P2_Ejercicio3_MarkupCompile.cache
+C:\Users\alce\Desktop\3-gii-degree-practices-master\Interfaces graficas\PracticasIGU\P2_Ejercicio3\obj\Debug\P2_Ejercicio3_MarkupCompile.lref
+C:\Users\alce\Desktop\3-gii-degree-practices-master\Interfaces graficas\PracticasIGU\P2_Ejercicio3\obj\Debug\MainWindow.baml
+C:\Users\alce\Desktop\3-gii-degree-practices-master\Interfaces graficas\PracticasIGU\P2_Ejercicio3\obj\Debug\P2_Ejercicio3.g.resources
+C:\Users\alce\Desktop\3-gii-degree-practices-master\Interfaces graficas\PracticasIGU\P2_Ejercicio3\obj\Debug\P2_Ejercicio3.Properties.Resources.resources
+C:\Users\alce\Desktop\3-gii-degree-practices-master\Interfaces graficas\PracticasIGU\P2_Ejercicio3\obj\Debug\P2_Ejercicio3.csproj.GenerateResource.cache
+C:\Users\alce\Desktop\3-gii-degree-practices-master\Interfaces graficas\PracticasIGU\P2_Ejercicio3\obj\Debug\P2_Ejercicio3.csproj.CoreCompileInputs.cache
+C:\Users\alce\Desktop\3-gii-degree-practices-master\Interfaces graficas\PracticasIGU\P2_Ejercicio3\obj\Debug\P2_Ejercicio3.exe
+C:\Users\alce\Desktop\3-gii-degree-practices-master\Interfaces graficas\PracticasIGU\P2_Ejercicio3\obj\Debug\P2_Ejercicio3.pdb

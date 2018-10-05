@@ -1,0 +1,6 @@
+C:\Users\alce\Desktop\3-gii-degree-practices-master\Interfaces graficas\PracticasIGU\P2_Ejercicio1\bin\Debug\P2_Ejercicio1.exe.config
+C:\Users\alce\Desktop\3-gii-degree-practices-master\Interfaces graficas\PracticasIGU\P2_Ejercicio1\bin\Debug\P2_Ejercicio1.exe
+C:\Users\alce\Desktop\3-gii-degree-practices-master\Interfaces graficas\PracticasIGU\P2_Ejercicio1\bin\Debug\P2_Ejercicio1.pdb
+C:\Users\alce\Desktop\3-gii-degree-practices-master\Interfaces graficas\PracticasIGU\P2_Ejercicio1\obj\Debug\P2_Ejercicio1.csproj.CoreCompileInputs.cache
+C:\Users\alce\Desktop\3-gii-degree-practices-master\Interfaces graficas\PracticasIGU\P2_Ejercicio1\obj\Debug\P2_Ejercicio1.exe
+C:\Users\alce\Desktop\3-gii-degree-practices-master\Interfaces graficas\PracticasIGU\P2_Ejercicio1\obj\Debug\P2_Ejercicio1.pdb

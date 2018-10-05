@@ -37,5 +37,11 @@
             </Canvas.RenderTransform>
         </Canvas>
 
+        <Canvas Name="MovibleBook" Grid.Row="3" Grid.Column="6">
+            <Canvas.Background>
+                <ImageBrush ImageSource="book.jpg"/>
+            </Canvas.Background>
+        </Canvas>
+        
     </Grid>
 </Window>
