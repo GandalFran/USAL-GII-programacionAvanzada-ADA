@@ -1,7 +1,0 @@
-C:\Users\Francisco Pinto Sant\Desktop\PracticasIGU\PracticasIGU\obj\Debug\PracticasIGU.csprojAssemblyReference.cache
-C:\Users\Francisco Pinto Sant\Desktop\PracticasIGU\PracticasIGU\obj\Debug\PracticasIGU.csproj.CoreCompileInputs.cache
-C:\Users\Francisco Pinto Sant\Desktop\PracticasIGU\PracticasIGU\bin\Debug\PracticasIGU.exe.config
-C:\Users\Francisco Pinto Sant\Desktop\PracticasIGU\PracticasIGU\bin\Debug\PracticasIGU.exe
-C:\Users\Francisco Pinto Sant\Desktop\PracticasIGU\PracticasIGU\bin\Debug\PracticasIGU.pdb
-C:\Users\Francisco Pinto Sant\Desktop\PracticasIGU\PracticasIGU\obj\Debug\PracticasIGU.exe
-C:\Users\Francisco Pinto Sant\Desktop\PracticasIGU\PracticasIGU\obj\Debug\PracticasIGU.pdb
