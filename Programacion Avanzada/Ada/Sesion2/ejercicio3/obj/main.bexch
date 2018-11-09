@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\i0918455\Desktop\Sesion2\ejercicio3\ejercicio3.gpr
+20181105104924
+[BOUND OBJECT FILES]
+C:\Users\i0918455\Desktop\Sesion2\ejercicio3\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\i0918455\Desktop\Sesion2\ejercicio3\obj\
+-LC:\Users\i0918455\Desktop\Sesion2\ejercicio3\obj\
+-LC:/gnat/2017/lib/gcc/i686-pc-mingw32/6.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2017/lib/gcc/i686-pc-mingw32/6.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

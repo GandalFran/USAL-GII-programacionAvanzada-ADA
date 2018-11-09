@@ -1,0 +1,76 @@
+V "GNAT Lib v2017"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=pentium4
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U main%b		main.adb		5ea4a8e6 NE OO SU
+Z ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.integer_aux%s  a-tiinau.adb	a-tiinau.ali
+W ada.text_io.integer_io%s
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20170516105950 76789da1 ada%s
+D a-except.ads		20170516105952 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170516105948 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
+D a-tags.ads		20170516105954 d3a89129 ada.tags%s
+D a-textio.ads		20170516105954 386df5d4 ada.text_io%s
+D a-tiinau.ads		20170516105952 8114c8e4 ada.text_io.integer_aux%s
+D a-tiinio.ads		20170516105950 aa04e5d6 ada.text_io.integer_io%s
+D a-tiinio.adb		20170516105952 df9cd7af ada.text_io.integer_io%b
+D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
+D interfac.ads		20170516105950 5ab55268 interfaces%s
+D i-cstrea.ads		20170516105950 e53d8b8e interfaces.c_streams%s
+D main.adb		20181105104804 7f16607e main%b
+D system.ads		20170516105954 32a08138 system%s
+D s-conca2.ads		20170516105952 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20170516105948 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170516105954 54135002 system.exception_table%s
+D s-ficobl.ads		20170516105956 078245e4 system.file_control_block%s
+D s-imgint.ads		20170516105950 02dbe0c2 system.img_int%s
+D s-parame.ads		20170516105954 7e2a0d7f system.parameters%s
+D s-soflin.ads		20170516105950 14e1eb6c system.soft_links%s
+D s-stache.ads		20170516105954 a37c21ec system.stack_checking%s
+D s-stalib.ads		20170516105954 09bd3940 system.standard_library%s
+D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
+D s-traent.ads		20170516105950 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170516105952 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20170516105954 1b7d22d2 system.wch_con%s
+D text_io.ads		20170516105954 21b2c898 text_io%s
+X 6 a-textio.ads
+166U14*New_Line 13|17s12 35s14
+242U14*Put 13|13s12 15s12 33s17
+263U14*Put_Line 13|30s12
+X 8 a-tiinio.ads
+46k21*Integer_IO 85e27 13|10r39
+56U14 Get 13|14s16[10] 16s16[10]
+X 13 main.adb
+3U11*Main 3b11 38l5 38t9
+5i4 value{integer} 25r25
+6i4 fil{positive} 14m20 19r32 23r18 31r18
+6i9 col{positive} 16m20 19r40 24r20 25r39 32r20
+8A9 Matrix(integer)<integer><integer> 19r22
+10K12 Positive_IO[8|46] 14r4 16r4
+19a12 MyMatrix{8A9} 25m9 33r35
+23i8 i{integer} 25r18 25r34
+24i10 j{integer} 25r20 25r46
+31i8 i{integer} 33r44
+32i10 j{integer} 33r46
+X 28 text_io.ads
+24K9*Text_IO=24:29 13|1w6 10r31 13r4 15r4 17r4 30r4 33r9 35r6
+
