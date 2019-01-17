@@ -1,0 +1,79 @@
+V "GNAT Lib v2017"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=pentium4
+P ZX
+
+RN
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U main%b		main.adb		706fdbc1 NE OO SU
+Z ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.enumeration_aux%s  a-tienau.adb	a-tienau.ali
+W ada.text_io.enumeration_io%s
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+W system.val_enum%s	s-valenu.adb		s-valenu.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20170516105950 76789da1 ada%s
+D a-except.ads		20170516105952 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170516105948 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
+D a-tags.ads		20170516105954 d3a89129 ada.tags%s
+D a-textio.ads		20170516105954 386df5d4 ada.text_io%s
+D a-tienau.ads		20170516105950 6a9c157b ada.text_io.enumeration_aux%s
+D a-tienio.ads		20170516105950 fc618ae6 ada.text_io.enumeration_io%s
+D a-tienio.adb		20170516105952 c9e6b5af ada.text_io.enumeration_io%b
+D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
+D interfac.ads		20170516105950 5ab55268 interfaces%s
+D i-cstrea.ads		20170516105950 e53d8b8e interfaces.c_streams%s
+D main.adb		20181029112502 51dd1359 main%b
+D system.ads		20170516105954 32a08138 system%s
+D s-crtl.ads		20170516105948 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170516105954 54135002 system.exception_table%s
+D s-ficobl.ads		20170516105956 078245e4 system.file_control_block%s
+D s-imenne.ads		20170516105950 614c06c0 system.img_enum_new%s
+D s-parame.ads		20170516105954 7e2a0d7f system.parameters%s
+D s-soflin.ads		20170516105950 14e1eb6c system.soft_links%s
+D s-stache.ads		20170516105954 a37c21ec system.stack_checking%s
+D s-stalib.ads		20170516105954 09bd3940 system.standard_library%s
+D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
+D s-traent.ads		20170516105950 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170516105952 34867c83 system.unsigned_types%s
+D s-valenu.ads		20170516105954 bb1a4295 system.val_enum%s
+D s-wchcon.ads		20170516105954 1b7d22d2 system.wch_con%s
+D text_io.ads		20170516105954 21b2c898 text_io%s
+X 6 a-textio.ads
+166U14*New_Line 13|12s18
+X 8 a-tienio.ads
+26k21*Enumeration_IO 55e31 13|8r38
+40U14 Put 13|13s18[8]
+X 13 main.adb
+3U11*Main 3b11 21l5 21t9
+5U14 ejercicio7 5b14 17l8 17t18 20s4
+6E12 Week 6e74 7r11 8r53 10r14 14r24 15r17
+6n21 lunes{6E12}
+6n27 martes{6E12}
+6n34 miercoles{6E12}
+6n44 jueves{6E12}
+6n51 viernes{6E12}
+6n59 sabado{6E12}
+6n66 domingo{6E12}
+7e7 var{6E12} 10m7 13r22 14r20 15m10 15r27
+8K15 Week_IO[8|26] 13r10
+X 28 text_io.ads
+24K9*Text_IO=24:29 13|1w6 8r30 12r10
+

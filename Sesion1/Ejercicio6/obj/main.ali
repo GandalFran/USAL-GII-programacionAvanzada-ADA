@@ -1,0 +1,73 @@
+V "GNAT Lib v2017"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=pentium4
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U main%b		main.adb		6ef05b6c NE OO SU
+Z ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.float_aux%s  a-tiflau.adb		a-tiflau.ali
+W ada.text_io.float_io%s
+W system.fat_flt%s	s-fatflt.ads		s-fatflt.ali
+W system.val_real%s	s-valrea.adb		s-valrea.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20170516105950 76789da1 ada%s
+D a-except.ads		20170516105952 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170516105948 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
+D a-tags.ads		20170516105954 d3a89129 ada.tags%s
+D a-textio.ads		20170516105954 386df5d4 ada.text_io%s
+D a-tiflau.ads		20170516105952 c0393f21 ada.text_io.float_aux%s
+D a-tiflio.ads		20170516105948 56fbda09 ada.text_io.float_io%s
+D a-tiflio.adb		20170516105950 fd9b1cfc ada.text_io.float_io%b
+D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
+D interfac.ads		20170516105950 5ab55268 interfaces%s
+D i-cstrea.ads		20170516105950 e53d8b8e interfaces.c_streams%s
+D main.adb		20181029110622 4f4293f4 main%b
+D system.ads		20170516105954 32a08138 system%s
+D s-crtl.ads		20170516105948 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170516105954 54135002 system.exception_table%s
+D s-fatflt.ads		20170516105952 11beb392 system.fat_flt%s
+D s-fatgen.ads		20170516105956 49cbaf86 system.fat_gen%s
+D s-ficobl.ads		20170516105956 078245e4 system.file_control_block%s
+D s-parame.ads		20170516105954 7e2a0d7f system.parameters%s
+D s-soflin.ads		20170516105950 14e1eb6c system.soft_links%s
+D s-stache.ads		20170516105954 a37c21ec system.stack_checking%s
+D s-stalib.ads		20170516105954 09bd3940 system.standard_library%s
+D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
+D s-traent.ads		20170516105950 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170516105952 34867c83 system.unsigned_types%s
+D s-valrea.ads		20170516105954 fe297711 system.val_real%s
+D s-wchcon.ads		20170516105954 1b7d22d2 system.wch_con%s
+D text_io.ads		20170516105954 21b2c898 text_io%s
+X 6 a-textio.ads
+166U14*New_Line 13|16s15
+242U14*Put 13|11s15 17s15
+249U14*Get_Line 13|12s15
+X 8 a-tiflio.ads
+46k21*Float_IO 89e25 13|9r39
+68U14 Put 13|18s16[9]
+X 13 main.adb
+3U11*Main 3b11 23l5 23t9
+5U14 ejercicio6 5b14 19l8 19t18 22s4
+6a7 inputValue{string} 12m24 14r32
+7f7 realValue{float} 14m7 18r20
+8i7 size{integer} 12m36 14r46
+9K15 Float_IO[8|46] 18r7
+X 29 text_io.ads
+24K9*Text_IO=24:29 13|1w6 9r31 11r7 12r7 16r7 17r7
+

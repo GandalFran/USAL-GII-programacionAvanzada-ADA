@@ -1,6 +1,0 @@
-C:\Users\Francisco Pinto Sant\Desktop\PracticasIGU\PracticasIGU\bin\Release\PracticasIGU.exe.config
-C:\Users\Francisco Pinto Sant\Desktop\PracticasIGU\PracticasIGU\bin\Release\PracticasIGU.exe
-C:\Users\Francisco Pinto Sant\Desktop\PracticasIGU\PracticasIGU\bin\Release\PracticasIGU.pdb
-C:\Users\Francisco Pinto Sant\Desktop\PracticasIGU\PracticasIGU\obj\Release\PracticasIGU.csproj.CoreCompileInputs.cache
-C:\Users\Francisco Pinto Sant\Desktop\PracticasIGU\PracticasIGU\obj\Release\PracticasIGU.exe
-C:\Users\Francisco Pinto Sant\Desktop\PracticasIGU\PracticasIGU\obj\Release\PracticasIGU.pdb
